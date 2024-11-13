@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фильтры для воды</title>
+    <!-- Подключаем Bootstrap CSS через CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .card:hover { transform: scale(1.05); transition: 0.3s; }
+    </style>
+</head>
+<body>
+
+<!-- Шапка сайта -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Фильтры для воды</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Главная</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">О нас</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Услуги</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- Основной контент -->
+<main class="container my-4">
+
+    <!-- Секция 1: Слайдер -->
+    <section>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://comkpd.com//upload/iblock/d21/ldkfslnenbubb2au3cyzme6slvimbbqa.png" class="d-block w-100" alt="Slide 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://comkpd.com//upload/iblock/c29/3kfqipakfu2busynlnjimd81xmer6prk.png" class="d-block w-100" alt="Slide 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://comkpd.com/upload/iblock/892/0rvupzlrr1uzws0gkzxvrh2ofiae63u7.png" class="d-block w-100" alt="Slide 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Секция 2: Карточки -->
+    <section class="my-4">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="https://comkpd.com/upload/iblock/1dc/1dc90d5ca74926fed0cc14a8ce4d94ae.png" class="card-img-top" alt="Card 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Анализ воды</h5>
+                        <p class="card-text">Для правильного подбора оборудования необходимо сделать анализ воды</p>
+                        <a href="#" class="btn btn-primary">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="https://comkpd.com/upload/iblock/5fb/5fb4ad72d0d0df9db624062d8b3c33d8.png" class="card-img-top" alt="Card 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Комерческое предложение</h5>
+                        <p class="card-text">По получению нами результатов лабораторных исследований воды и опросного листа, мы в течении дня разрабатываем для Вас возможные варианты (до 3) водоочистного оборудования.</p>
+                        <a href="#" class="btn btn-primary">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="https://comkpd.com/upload/iblock/0f7/0f760f4a0acb080ca07b69f90c444b1f.png" class="card-img-top" alt="Card 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Установка водоочистки</h5>
+                        <p class="card-text">Ответственно подходим к каждому заказу и выполняем работы аккуратно и качественно. По окончании всех работ проводим уборку, и вы принимаете заказ уже в чистом помещении.</p>
+                        <a href="#" class="btn btn-primary">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция 3: Аккордеон -->
+    <section class="my-4">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Как правильно отобрать воду на анализ?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                    <h5>1. Подготовка емкостей</h5>
+                 <ul><li>Используйте чистые пластиковые или стеклянные контейнеры. Для общего анализа обычно подойдут пластиковые бутылки (например, из-под питьевой воды).</li>
+                     <li>Если вода будет тестироваться на микробиологические показатели, используйте стерильную емкость, которая закрывается герметично.</li>
+                     <li>Для химического анализа может потребоваться не менее 1 литра воды, для бактериологического — около 250 мл (точный объем можно уточнить в лаборатории).</li></ul>
+                   <h5>2. Подготовка к отбору воды</h5>
+                 <ul><li><strong>Если забор воды производится из крана</strong>, откройте его и дайте воде стечь 5-10 минут, чтобы промыть трубы и слить застоявшуюся воду.</li>
+                     <li><strong>Если забор производится из колодца или скважины</strong>, необходимо откачать воду в течение нескольких минут.</li></ul>
+                   <h5>3. Процесс отбора пробы</h5>
+                  <ul><li><strong>Не используйте фильтры или смягчители воды перед забором</strong>: отбирайте воду в том состоянии, в котором вы ее используете.</li>
+                      <li>Наполните емкость почти до краев, оставив небольшое пространство для предотвращения разрыва при замораживании (если потребуется заморозка).</li>
+                      <li>Старайтесь избегать контакта горлышка и крышки с руками, чтобы избежать загрязнения.</li>
+                      <li>Плотно закройте емкость сразу после заполнения.</li></ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Cколько времени займет установка оборудования?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>Время установки оборудования для водоочистки может зависеть от нескольких факторов, таких как:</p>
+                       <ol><li><p><strong>Тип оборудования</strong>: Простые системы (например, фильтры под мойку) могут быть установлены за 1-2 часа. Более сложные системы, такие как многокомпонентные станции очистки или системы для скважин, могут потребовать от 4 до 8 часов.</p></li>
+                           <li><p><strong>Место установки</strong>: В доме или квартире с готовыми подводами и свободным доступом установка займет меньше времени, чем на удаленных объектах или в местах с ограниченным доступом к коммуникациям.</p></li>
+                           <li><p><strong>Подготовка и подключение к существующей системе</strong>: Если требуется подготовка водопроводных труб или монтаж дополнительных элементов (например, насосов или баков), это может добавить 1-2 часа к общему времени.</p></li>
+                           <li><p><strong>Тестирование и настройка</strong>: После установки оборудование часто требует тестирования и настройки. Это может занять от 30 минут до 1 часа.</p></li></ol>
+                      <h5>Примерное время установки:</h5>
+                        <ul><li><strong>Фильтры под мойку</strong>: 1-2 часа.</li>
+                            <li><strong>Системы обратного осмоса</strong>: 2-4 часа.</li>
+                            <li><strong>Комплексные системы для скважин или домов</strong>: 4-8 часов.</li>
+                            <li><strong>Промышленные установки</strong>: от одного дня до нескольких дней в зависимости от объема и сложности системы.</li></ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Как часто нужно обслуживать оборудование?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                       <ul><li><strong>Контролируйте показатели качества воды</strong>: Периодический анализ воды поможет определить, когда требуется замена фильтрующих элементов.</li>
+                           <li><strong>Следуйте рекомендациям производителя</strong>: Указанные сроки замены фильтров и других компонентов обычно приводятся в инструкции и могут варьироваться в зависимости от модели оборудования.</li></ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- Футер -->
+<footer class="bg-dark text-white text-center py-3">
+    <p>Контактная информация</p>
+    <p>Email: example@example.com | Телефон: +7 (123) 456-78-90</p>
+    <p>
+        <a href="#" class="text-white me-3">Facebook</a>
+        <a href="#" class="text-white me-3">Twitter</a>
+        <a href="#" class="text-white">Instagram</a>
+    </p>
+</footer>
+
+<!-- Подключаем Bootstrap JS через CDN -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
